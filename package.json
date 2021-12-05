@@ -1,0 +1,35 @@
+{
+  "name": "html-boilerplate",
+  "description": "A static HTML, CSS, JS boilerplate generator built with Parcel.",
+  "version": "0.1.0",
+  "source": "src/index.html",
+  "author": "Klaudia Zawodnik <noeemi@zoho.com>",
+  "license": "WTFPL",
+  "keywords": [
+    "html",
+    "boilerplate",
+    "html-boilerplate",
+    "front-end",
+    "generator",
+    "parcel"
+  ],
+  "scripts": {
+    "start": "parcel src/*.html --dist-dir public",
+    "build": "parcel build src/*.html --dist-dir public --public-url ./",
+    "lint": "yarn run lint:js && yarn run lint:css",
+    "lint:js": "eslint ./src --ignore-path .gitignore --no-error-on-unmatched-pattern",
+    "lint:css": "stylelint **/*.scss",
+    "format": "prettier --write ./src --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "parcel": "^2.0.1",
+    "stylelint": "^14.1.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard-scss": "^3.0.0"
+  },
+  "dependencies": {}
+}

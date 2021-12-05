@@ -1,0 +1,8 @@
+// Returns the hex color from $colors array based on the color name
+@function get-color($name) {
+  @if map-has-key($colors, $name) {
+    @return map-get($colors, $name);
+  } @else {
+    @error 'ERROR: Specified color does not exist';
+  }
+}

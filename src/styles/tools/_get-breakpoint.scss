@@ -1,0 +1,8 @@
+// Returns the hex color from $colors array based on the color name
+@function get-breakpoint($name) {
+  @if map-has-key($breakpoints, $name) {
+    @return map-get($breakpoints, $name);
+  } @else {
+    @error 'ERROR: Specified breakpoint does not exist';
+  }
+}

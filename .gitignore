@@ -1,0 +1,16 @@
+# Dependency directories
+/node_modules
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+
+# Logs #
+yarn-debug.log*
+yarn-error.log*
+
+# Public files #
+/public
+
+# Parcel cache #
+.parcel-cache

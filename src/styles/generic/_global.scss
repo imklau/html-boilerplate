@@ -1,0 +1,13 @@
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $font-primary;
+  background-color: get-color(dark);
+  color: get-color(light);
+}
+
+svg {
+  fill: currentColor;
+}

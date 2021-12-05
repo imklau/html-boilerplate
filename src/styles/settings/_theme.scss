@@ -1,0 +1,27 @@
+// -----------------------------------
+// BREAKPOINTS
+$breakpoints: (
+  xsmall: 520px,
+  small: 768px,
+  medium: 992px,
+  large: 1200px,
+  xlarge: 1440px,
+);
+
+// -----------------------------------
+// TYPOGRAPHY
+$font-primary: 'Fira Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+// -----------------------------------
+// COLORS
+$colors: (
+  primary: #0047ff,
+  primary-dark: #043bca,
+  text: #423f57,
+  text-light: #767481,
+  white: #ffffff,
+  light: #d6deeb,
+  gray: #b8b8c4,
+  dark: #121214,
+  black: #000000,
+);
