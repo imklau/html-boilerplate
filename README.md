@@ -1,6 +1,6 @@
 # 🦾 HTML boilerplate
 
-A static HTML, CSS, JS boilerplate built with Parcel.
+Static HTML, CSS, JS boilerplate built with Parcel.
 
 ## ✨ Features
 
@@ -13,10 +13,18 @@ A static HTML, CSS, JS boilerplate built with Parcel.
 
 ## 🚀 Quick start
 
-Make sure you have node +14 and npm +7 installed, then run:
+Clone the repo:
 
 ```
-npx @imklau/html-boilerplate <project-name>
+git clone git@github.com:Noeemi/html-boilerplate.git <project-name>
+```
+
+and then run:
+
+```
+cd <project-name>
+yarn
+yarn start
 ```
 
 ## 👩🏻‍💻 Available commands:
@@ -59,8 +67,6 @@ Minifiers for JavaScript, CSS, HTML, and SVG are included out of the box. By def
 #### Image optimization
 
 Parcel supports resizing, converting, and optimizing images. You can use query parameters when referencing an image in HTML, CSS, or JavaScript to specify which format and size the image should be converted to.
-
-[Parcel Images](https://parceljs.org/recipes/image/)
 
 ```html
 <picture>
