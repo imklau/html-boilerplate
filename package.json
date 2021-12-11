@@ -1,7 +1,7 @@
 {
   "name": "html-boilerplate",
   "description": "A static HTML, CSS, JS boilerplate generator built with Parcel.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "source": "src/index.html",
   "author": "Klaudia Zawodnik <noeemi@zoho.com>",
   "license": "WTFPL",
