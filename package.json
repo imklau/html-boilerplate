@@ -19,13 +19,20 @@
     "lint": "yarn run lint:js && yarn run lint:css",
     "lint:js": "eslint ./src --ignore-path .gitignore --no-error-on-unmatched-pattern",
     "lint:css": "stylelint **/*.scss",
-    "format": "prettier --write ./src --ignore-path .gitignore"
+    "format": "prettier --write ./src --ignore-path .gitignore",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.js": "yarn lint:js",
+    "*.scss": "yarn lint:css"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
     "eslint": "^8.3.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3",
+    "husky": "^7.0.0",
+    "lint-staged": "^12.1.2",
     "parcel": "^2.0.1",
     "stylelint": "^14.1.0",
     "stylelint-config-prettier": "^9.0.3",
