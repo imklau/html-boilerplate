@@ -2,6 +2,8 @@
 
 Static HTML, CSS, JS boilerplate built with Parcel.
 
+[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/) [![Netlify Status](https://api.netlify.com/api/v1/badges/886f42f0-79fb-402d-a4ff-b35395ccaf90/deploy-status)](https://app.netlify.com/sites/imklau-html-boilerplate/deploys)
+
 ## ✨ Features
 
 - Dev server & hot reloading
